@@ -1,0 +1,59 @@
+body {
+
+	background-color: black;
+	color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	text-decoration: none;
+    display: block;
+    margin-right: 10px;
+    padding: 8px;
+    background-color: gray;
+    color: white;
+}
+
+li a:hover,
+li a.selected {
+    background-color: blue;
+}
+
+#heading {
+	color: red;
+}
+
+.button {
+	background-color: #000080;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.button:hover {
+	background-color: gray;
+}
+
+#shortinput {
+	width: 100px;
+}
+
+#longinput {
+	width: 240px;
+}
+
+
+
+#returnbutton {
+	margin-left: 430px;
+}
