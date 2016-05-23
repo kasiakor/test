@@ -40,6 +40,12 @@ li a.selected {
 	padding: 5px;
 }
 
+.button a {
+	background-color: #000080;
+	color: white;
+	text-decoration: none;
+}
+
 .button:hover {
 	background-color: gray;
 }
